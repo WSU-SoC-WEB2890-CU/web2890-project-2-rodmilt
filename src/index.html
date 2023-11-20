@@ -23,16 +23,16 @@
 
         <ul class="nav col-md-auto mb-2 justify-content-center mb-md-0">
           <li class="nav-item">
-            <a class="nav-link text-secondary text-uppercase px-2" href="index.html">Home</a>
+            <a class="nav-link text-white text-uppercase px-2" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary text-uppercase px-2" href="about.html">About</a>
+            <a class="nav-link text-white text-uppercase px-2" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary text-uppercase px-2" href="gallery.html">Gallery</a>
+            <a class="nav-link text-white text-uppercase px-2" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-secondary text-uppercase px-2" href="contact.html">Contact</a>
+            <a class="nav-link text-white text-uppercase px-2" href="contact.html">Contact</a>
           </li>
         </ul>
 
@@ -62,13 +62,16 @@
             <div class="text-center my-5">
               <h2 class="text-white fw-bold mb-2">Serving Northern Utah's Fence Needs For Over 50 Years!</h2><br><br>
               <h4 class="text-primary fw-bold mb-2">If you have fencing needs in Northern Utah we can provide most services for you.</h4><br>
-              <p class="lead text-secondary mb-4">
+              <p class="lead text-white mb-4">
                 We, at Classic Fencing, provide services for residential and commercial customers. 
                 With a large variety of fence designs and materials to choose from, we are positive that 
                 you will receive satisfactory service.
               </p>
               <div class="d-grid gap-2 d-sm-flex justify-content-center mb-5">
-                <a type="button" class="btn btn-primary btn-lg text-white text-uppercase px-4 me-sm-3 rounded-0" href="gallery.html">
+                <!-- <a type="button" class="btn btn-primary btn-lg text-white text-uppercase px-4 me-sm-3 rounded-0" href="gallery.html">
+                  View Gallery
+                </a> -->
+                <a type="button" id="outln-prmry-blue-btn" class="btn btn-outline-primary btn-lg text-uppercase px-4 me-sm-3 rounded-0 text-decoration-none" href="gallery.html">
                   View Gallery
                 </a>
                 <a type="button" id="outln-prmry-blue-btn" class="btn btn-outline-primary btn-lg text-uppercase px-4 me-sm-3 rounded-0 text-decoration-none" href="contact.html">
@@ -93,172 +96,233 @@
           <!--  Carousel of reviews  -->
         <section py-5>
           <div class="container">
-            <h2 class="text-center text-white fw-bold pb-2">Reviews</h2><br>
+            <h2 class="text-center text-white fw-bold pb-2">Reviews</h2><br>            
             <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleSlidesOnly">
-            
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <div class="box front">
-                        <img alt="" src="images/Reviews/amy-hirschi-b3AYk8HKCl0-unsplash.jpg">
-                        <h2>Julie Corona</h2>
-                        <h4>Ogden, Utah</h4>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="card">
+                          <div class="box front">
+                            <img alt="" src="images/Reviews/amy-hirschi-b3AYk8HKCl0-unsplash.jpg">
+                            <h2>Julie Corona</h2>
+                            <h4>Ogden, Utah</h4>
+                            <div class="ratings p-1">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                          </div>
+                          <div class="box back">
+                            <p>
+                              Classic Fencing has the best quality at a fair price. I couldn't be happier with my fence.
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div class="box back">
-                        <span class="fa fa-quote-left"></span>
-                        <p>
-                          Classic Fencing has the best quality at a fair price. I couldn't be happier with my fence.
-                        </p>
+                      <div class="col-lg-4">
+                        <div class="card">
+                          <div class="box front">
+                            <img alt="" src="images/Reviews/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg">
+                            <h2>Camille Frank</h2>
+                            <h4>Layton, Utah</h4>
+                            <div class="ratings p-1">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="box back">
+                            <p>
+                              Great service and friendly!  Would definitely recommend their business to others.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="card">
+                          <div class="box front">
+                            <img alt="" src="images/Reviews/zoltan-tasi-K8THtljXWEA-unsplash.jpg">
+                            <h2>Mario Lopez</h2>
+                            <h4>West Point, Utah</h4>
+                            <div class="ratings p-1">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                          </div>
+                          <div class="box back">
+                            <p>
+                              I have the highest regard for these guys. Very professional and great work.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <div class="box front">
-                        <img alt="" src="images/Reviews/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg">
-                        <h2>Camille Frank</h2>
-                        <h4>Layton, Utah</h4>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="card">
+                          <div class="box front">
+                            <img alt="" src="images/Reviews/ryan-de-hamer-mjAG6XytTJY-unsplash.jpg">
+                            <h2>Bob Hill</h2>
+                            <h4>Washington Terrace, Utah</h4>
+                            <div class="ratings p-1">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="box back">
+                            <p>
+                              I whole heartedly thank these professionals for not letting me make a mistake.
+                              I wanted cheaper materials and they advised against it.  
+                              When a wind storm blew over the neighbors fence, I understood why! 
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div class="box back">
-                        <span class="fa fa-quote-left"></span>
-                        <p>
-                          Great service and friendly!  Would definitely recommend their business to others.
-                        </p>
+                      <div class="col-lg-4">
+                        <div class="card">
+                          <div class="box front">
+                            <img alt="" src="images/Reviews/dylan-ferreira-jIM8kVsFKlM-unsplash.jpg">
+                            <h2>Feng Liu</h2>
+                            <h4>Clinton, Utah</h4>
+                            <div class="ratings p-1">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="box back">
+                            <p>
+                              I'm so stoked!
+                              I was in a rush to get my fence installed before my vacation and they got it done.
+                              Such a great job in such a short time!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="box front">
+                            <img alt="" src="images/Reviews/zoran-borojevic-f5xiGmFwXIU-unsplash (1).jpg">
+                            <h2>Joe Brandon</h2>
+                            <h4>Pleasant View, Utah</h4>
+                            <div class="ratings p-1">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="box back">
+                            <p>
+                              The guys at Classic Fencing don't cut corners.
+                              Quality is their highest priority!
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <div class="box front">
-                        <img alt="" src="images/Reviews/zoltan-tasi-K8THtljXWEA-unsplash.jpg">
-                        <h2>Mario Lopez</h2>
-                        <h4>West Point, Utah</h4>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="card">
+                          <div class="box front">
+                            <img alt="" src="images/Reviews/dorrell-tibbs-cokfziNs91A-unsplash.jpg">
+                            <h2>Blaine Rodderick</h2>
+                            <h4>Brigham City, Utah</h4>
+                            <div class="ratings p-1">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="box back">
+                            <p>
+                              Want to hear about people who care? 
+                              Classic Fencing is it.
+                              A kid pullled my uncured post out of the hole and the installers dug out the cement and reinstalled the post at no charge.
+                              Not many companies would do that!
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div class="box back">
-                        <span class="fa fa-quote-left"></span>
-                        <p>
-                          I have the highest regard for these guys. Very professional and great work.
-                        </p>
+                      <div class="col-lg-4">
+                        <div class="card">
+                          <div class="box front">
+                            <img alt="" src="images/Reviews/amir-seilsepour-5vg_SarQimA-unsplash.jpg">
+                            <h2>Amir Sielespour</h2>
+                            <h4>North Ogden, Utah</h4>
+                            <div class="ratings p-1">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="box back">
+                            <p>
+                              I recently had my fence installed and was thoroughly impressed by the impeccable service. 
+                              The attentive and knowledgeable staff ensured that my experience was a memorable one. 
+                              Providing excellent recommendations for materials and ensuring our satisfaction.
+                              I can not recommend Classic Fencing enough for a fantastic customer experience!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="card">
+                          <div class="box front">
+                            <img alt="" src="images/Reviews/shipman-northcutt-sgZX15Da8YE-unsplash.jpg">
+                            <h2>Bret Sessions</h2>
+                            <h4>Roy, Utah</h4>
+                            <div class="ratings p-1">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="box back">
+                            <p>
+                              I can’t say enough good things about Classic Fencing and their incredible team. 
+                              From the moment they stepped out of their truck, I was greeted with professionalism and enthusiasm. 
+                              The workers were attentive, offering expert advice on the layout of my fence.
+                              In the end, my fence turned out better than I expected.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <div class="box front">
-                        <img alt="" src="images/Reviews/ryan-de-hamer-mjAG6XytTJY-unsplash.jpg">
-                        <h2>Bob Hill</h2>
-                        <h4>Washington Terrace, Utah</h4>
-                      </div>
-                      <div class="box back">
-                        <span class="fa fa-quote-left"></span>
-                        <p>
-                          I whole heartedly thank these professionals for not letting me make a mistake.
-                          I wanted cheaper materials and they advised against it.  
-                          When a wind storm blew over the neighbors fence, I understood why! 
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <div class="box front">
-                        <img alt="" src="images/Reviews/dylan-ferreira-jIM8kVsFKlM-unsplash.jpg">
-                        <h2>Feng Liu</h2>
-                        <h4>Clinton, Utah</h4>
-                      </div>
-                      <div class="box back">
-                        <span class="fa fa-quote-left"></span>
-                        <p>
-                          I'm so stoked!
-                          I was in a rush to get my fence installed before my vacation and they got it done.
-                          Such a great job in such a short time!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card">
-                      <div class="box front">
-                        <img alt="" src="images/Reviews/zoran-borojevic-f5xiGmFwXIU-unsplash (1).jpg">
-                        <h2>Joe Brandon</h2>
-                        <h4>Pleasant View, Utah</h4>
-                      </div>
-                      <div class="box back">
-                        <span class="fa fa-quote-left"></span>
-                        <p>
-                          The guys at Classic Fencing don't cut corners.
-                          Quality is their highest priority!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <div class="box front">
-                        <img alt="" src="images/Reviews/dorrell-tibbs-cokfziNs91A-unsplash.jpg">
-                        <h2>Blaine Rodderick</h2>
-                        <h4>Brigham City, Utah</h4>
-                      </div>
-                      <div class="box back">
-                        <span class="fa fa-quote-left"></span>
-                        <p>
-                          Want to hear about people who care? 
-                          The workers a Classic Fencing are it.
-                          A kid pullled my uncured post out of the hole and the installers dug out the cement and reinstalled the post at no charge.
-                          Not many companies would do that!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <div class="box front">
-                        <img alt="" src="images/Reviews/amir-seilsepour-5vg_SarQimA-unsplash.jpg">
-                        <h2>Amir Sielespour</h2>
-                        <h4>North Ogden, Utah</h4>
-                      </div>
-                      <div class="box back">
-                        <span class="fa fa-quote-left"></span>
-                        <p>
-                          I recently had my fence installed and was thoroughly impressed by the impeccable service. 
-                          The attentive and knowledgeable staff ensured that my experience was a memorable one. 
-                          Providing excellent recommendations for materials and ensuring our satisfaction.
-                          I can not recommend Classic Fencing enough for a fantastic customer experience!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="card">
-                      <div class="box front">
-                        <img alt="" src="images/Reviews/shipman-northcutt-sgZX15Da8YE-unsplash.jpg">
-                        <h2>Bret Sessions</h2>
-                        <h4>Roy, Utah</h4>
-                      </div>
-                      <div class="box back">
-                        <span class="fa fa-quote-left"></span>
-                        <p>
-                          I can’t say enough good things about Classic Fencing and their incredible team. 
-                          From the moment they stepped out of their truck, I was greeted with professionalism and enthusiasm. 
-                          The workers were attentive, offering expert advice on the layout of my fence.
-                          In the end, my fence turned out better than I expected.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                  <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
           </div>
         </div>
       </section>
@@ -269,8 +333,8 @@
 
       <!-- Carousel of work -->      
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <h4 class="text-white fw-bold mb-2 text-center">View a small portion of our work here.</h4>
-        <p class="lead text-secondary mb-4 text-center">To view more of our work, visit our 
+        <br><h4 class="text-white fw-bold mb-2 text-center">View a small portion of our work here.</h4>
+        <p class="lead text-white mb-4 text-center">To view more of our work, visit our 
           <a class="text-primary text-uppercase px-2 text-decoration-none fw-bold" href="gallery.html">Gallery</a> page.</p>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -287,17 +351,21 @@
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
         <div class="d-grid gap-2 d-sm-flex justify-content-center mb-5">
-          <button type="button" class="btn btn-primary btn-lg text-white text-uppercase px-4 me-sm-3 rounded-0">
+          <a type="button" id="outln-prmry-blue-btn" class="btn btn-outline-primary btn-lg text-uppercase px-4 me-sm-3 rounded-0 text-decoration-none" href="gallery.html">
+            View Gallery Page
+          </a>
+          <!-- Old colored in button that confused customer into thinking they were on Gallery page. 
+            <button type="button" class="btn btn-primary btn-lg text-white text-uppercase px-4 me-sm-3 rounded-0">
             <a class="nav-link text-white text-uppercase px-2" href="gallery.html">View Gallery Page</a>
-          </button>
+          </button> -->
         </div>
       </div>
       <!-- End Carousel -->
